@@ -1,0 +1,16 @@
+= Koans Notes
+
+== Slicing Arrays
+Why does slicing on the 5th element of a 4 element array return an empty
+array?
+
+Example:
+array = [:p, :b, :n, :j]
+array[5, 0]
+=> nil
+
+array[4, 0]
+=> []
+
+array[4, 100]
+=> []
